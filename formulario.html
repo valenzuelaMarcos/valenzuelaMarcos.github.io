@@ -1,45 +1,43 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Inicio</title>
+	<title>Formulario</title>
+	<link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-	
-	<h1>Página para elementos de texto</h1>
-
+	<h1>Página para elemtos de formulario</h1>
 	<hr>
-    <nav>
-       <a href="index.html">Inicio</a>     
-       <a href="listas.html">Listas</a> 
-       <a href="imagenes.html">Galeria</a>
-       <a href="tablas.html">Usuarios</a>
-    </nav>
-<hr>
-	<h2>Registrese en la pagina</h2>
-	<form 
-		
-		<label for="">Nombre</label>
-		<input type="text"id="Nombre" placeholder="Ingrese su nombre" required>
-		
-<br>
-<br>
-		<label for="correo">Email</label>
-		<input type="email" id="correo" placeholder="Ingrese su Email">
+	      <nav>
+       	   <a href="index.html">Inicio</a> 
+       	   <a href="listas.html">listas</a>
+       	    <a href="imagenes.html">Galeria</a>
+       	    <a href="tablas.html">Usuario</a> 
+       	    <a href="Formulario.html">Login</a>
+       </nav>
+	<hr>
+  <h2>Registrese en la pagina</h2>
+  <section class="card">
+  	 <form method="POST">
+  	<label for="">Nombre:</label>
+  	<input class="in-text" type="text"  id="Nombre" placeholder="Ingrese su nombre" required> 
+  	<br>
+  	<br>
+  	<label for="Correo">Email</label>
+  	<input class="in-text" type="Email" id="Correo" placeholder="ingrese su email">
+  		<br>
+  		<br>
+  		<label for="pass">contraseña</label>
+  	<input class="in-text" type="password" id="pass" placeholder="ingrese su contraseña" required>
+  		<br>
+  		<br>
 
-
-<br>
-<br>
-		<label for="pass">Contraseña</label>
-		<input type="password" id="pass" placeholder="Ingrese su contraseña" required>
-		
-<br>
-<br>		<input type="submit" value="Registrese">
-		<input type="reset"value="Cancelar">
-
-	</form>
-
+     <input class="btn btn-sub" type="submit" value="Guardar">
+     <input class="btn btn-res" type="reset" value="Cancelar">
+  </form>
+  </section>
+ 
 
 </body>
 </html>

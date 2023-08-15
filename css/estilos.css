@@ -1,0 +1,61 @@
+body{
+background-color: #9F9A9A;
+ width: 90%;
+ margin: 0 auto;
+}
+
+h1 {
+  text-align:center;
+   color:#9514D1;
+ }
+ nav {
+  background: #E84E18;
+  height: 10px 20px;
+  border-radius: 5px;
+  word-spacing: 20px;
+ }
+ nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #19EC09;
+ }
+  nav a:hover {
+     text-shadow: 0 0 10px #064009;
+ }
+ .card{
+  text-align:center;
+  border: 4px black dotted;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 8px 2px black, 0 0 10px 4px rgb(234,30 ,250, 1.0);
+ }
+ label {
+  color: #9514D1;
+  font-size: 1.2rem;
+
+ }
+ form{ text-align: left; }
+.in-text{
+  width: 250px;
+  height: 20px;
+  padding: 0 10px;
+  font-size: 1.2rem;
+  background: #9514D1;
+  border: none;
+  border-radius: 5px;
+ }
+ .btn {
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.0rem;
+ }
+ .btn-sub {
+  background: #0C4106;
+  color: white;
+ }
+ .btn-res {
+  background: orangered;
+  color: white;
+ }
